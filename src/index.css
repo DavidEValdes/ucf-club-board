@@ -23,27 +23,11 @@ main {
   background-color: #f0f0f0; 
 }
 
-h1{
+h1 {
   font-size: 38px;
 }
 
-.clubs-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 50px;
-  justify-content: center;
-}
-
-/* Club card styles */
-.club-card {
-  background-color: #ffffff;
-  border: 1px solid #FFC904; 
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
-}
-
+/* Club card interaction styles */
 .club-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
@@ -78,7 +62,6 @@ h1{
   font-size: 25px;
   margin-bottom: 40px;
   margin-top: 5px;
-  
 }
 
 /* Styling for links */
