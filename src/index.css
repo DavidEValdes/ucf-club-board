@@ -5,11 +5,16 @@
   background-color: #f0f0f0; /* Light grey background */
 }
 
-/* Header styling */
+/* Header styling with gold border all around and rounded edges */
 .app-header {
   background-color: #212529; /* UCF black */
   color: #fff;
   padding: 20px 0;
+  border: 4px solid #BA9B37; /* Gold border all around */
+  border-radius: 8px; /* Rounded edges */
+  margin: 20px auto; /* Adjust margin as necessary */
+  width: calc(100% - 40px); /* Adjust width to account for margin */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
 /* Main content styles */
@@ -21,7 +26,7 @@ main {
 .clubs-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 30px;
+  gap: 50px;
   justify-content: center;
 }
 
@@ -47,6 +52,41 @@ main {
   text-align: center;
   padding: 20px 0;
   margin-top: 40px; /* Ensure some space between the content and footer */
+  border: 4px solid #BA9B37; /* Gold border all around */
+  border-radius: 8px; /* Rounded edges */
+}
+
+.app-footer a {
+  color: #BA9B37;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.app-footer a:hover {
+  color: #fff;
+}
+
+/* Styling for social icons or links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.social-icon {
+  padding: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+/* Footer content styles */
+.footer-content {
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 /* Responsive adjustments */
