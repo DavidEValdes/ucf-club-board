@@ -2,25 +2,29 @@
 .app {
   text-align: center;
   padding: 20px;
-  background-color: #f0f0f0; /* Light grey background */
+  background-color: #f0f0f0; 
 }
 
-/* Header styling with gold border all around and rounded edges */
+/* Header styling */
 .app-header {
-  background-color: #212529; /* UCF black */
+  background-color: #231f20; 
   color: #fff;
   padding: 20px 0;
-  border: 4px solid #BA9B37; /* Gold border all around */
-  border-radius: 8px; /* Rounded edges */
-  margin: 20px auto; /* Adjust margin as necessary */
-  width: calc(100% - 40px); /* Adjust width to account for margin */
-  box-sizing: border-box; /* Ensure padding and border are included in the width */
+  border: 10px solid #FFC904; 
+  border-radius: 8px; 
+  margin: 20px auto; 
+  width: calc(100% - 40px); 
+  box-sizing: border-box; 
 }
 
 /* Main content styles */
 main {
   padding: 20px;
-  background-color: #f0f0f0; /* Light background for contrast */
+  background-color: #f0f0f0; 
+}
+
+h1{
+  font-size: 38px;
 }
 
 .clubs-container {
@@ -33,7 +37,7 @@ main {
 /* Club card styles */
 .club-card {
   background-color: #ffffff;
-  border: 1px solid #BA9B37; /* UCF gold for border accent */
+  border: 1px solid #FFC904; 
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -47,46 +51,47 @@ main {
 
 /* Footer styles */
 .app-footer {
-  background-color: #212529; /* UCF black */
-  color: #BA9B37; /* UCF gold */
+  background-color: #231f20; 
+  color: #FFC904; 
   text-align: center;
   padding: 20px 0;
-  margin-top: 40px; /* Ensure some space between the content and footer */
-  border: 4px solid #BA9B37; /* Gold border all around */
-  border-radius: 8px; /* Rounded edges */
+  margin-top: 40px; 
+  border: 4px solid #FFC904; 
+  border-radius: 8px; 
 }
 
 .app-footer a {
-  color: #BA9B37;
+  color: #ffffff;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 60px;
   transition: color 0.3s ease;
+  font-size: 20px;
 }
 
 .app-footer a:hover {
-  color: #fff;
+  color: #BA9B37;
 }
 
-/* Styling for social icons or links */
+.app-footer p {
+  color: #FFC904;
+  font-style: italic;
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 5px;
+  
+}
+
+/* Styling for links */
 .social-links {
   display: flex;
   justify-content: center;
   padding: 20px 0;
 }
 
-.social-icon {
-  padding: 0 10px;
-  transition: transform 0.3s ease;
-}
-
-.social-icon:hover {
-  transform: scale(1.2); /* Slightly enlarge icons on hover */
-}
-
 /* Footer content styles */
 .footer-content {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* Responsive adjustments */
