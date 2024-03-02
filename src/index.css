@@ -1,0 +1,57 @@
+/* Base layout */
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light grey background */
+}
+
+/* Header styling */
+.app-header {
+  background-color: #212529; /* UCF black */
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.clubs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Club card styles */
+.club-card {
+  background-color: #ffffff;
+  border: 1px solid #BA9B37; /* UCF gold for border accent */
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.club-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styles */
+.app-footer {
+  background-color: #212529; /* UCF black */
+  color: #BA9B37; /* UCF gold */
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px; /* Ensure some space between the content and footer */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .clubs-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
