@@ -1,4 +1,4 @@
-# Web Development Project 1 - *UCF Club Community Board*
+# Web Development Project 1 - *UCF Club Board*
 
 Submitted by: **David Valdes**
 
