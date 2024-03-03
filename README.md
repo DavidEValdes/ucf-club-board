@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![GIFMaker_me](https://github.com/DavidEValdes/ucf-club-board/assets/36570117/9ab80d78-2e04-40b6-8219-02cab3125b6b)
+![GIFMaker_me](https://github.com/DavidEValdes/ucf-club-board/assets/36570117/a8c61b69-7fc8-43e1-a0a8-b95d41be829e)
 
 
 
