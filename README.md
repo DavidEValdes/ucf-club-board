@@ -28,6 +28,7 @@ Here's a walkthrough of implemented required features:
 
 ![GIFMaker_me](https://github.com/DavidEValdes/ucf-club-board/assets/36570117/a8c61b69-7fc8-43e1-a0a8-b95d41be829e)
 
+
 ## License
 
     Copyright [2024] [David Valdes]
